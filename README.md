@@ -1,106 +1,56 @@
-# Smart Expense Tracker
+# 💰 Smart Expense Tracker
 
-A dynamic and interactive expense tracking website built with vanilla JavaScript, HTML, and CSS. This application helps users manage their personal finances by tracking income, expenses, and savings goals.
+> **Comprehensive personal finance dashboard for tracking income, expenses, monthly budgets, and savings goals with interactive Chart.js analytics.**
 
-## Features
+---
 
-- 💰 Track income and expenses with categories
-- 📊 Visualize spending patterns with interactive charts
-- 🎯 Set and track savings goals
-- 💹 Monitor monthly budget limits
-- 🔄 Track recurring expenses
-- 🌓 Dark/Light mode support
-- 💾 Local storage for data persistence
-- 📱 Responsive design for all devices
+## ✨ Key Features
 
-## Technologies Used
+- 📈 **Financial Dashboard Overview**
+  - Instant summary cards displaying **Money In** (Total Income), **Money Out** (Total Expenses), and **Money Left** (Net Balance).
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Chart.js for data visualization
-- Local Storage API for data persistence
-- Exchange Rate API for currency conversion
-- Advice Slip API for financial tips
+- 📊 **Interactive Data Visualization**
+  - **Monthly Trends Bar Chart**: Track income vs spending trends over time.
+  - **Category Breakdown Doughnut Chart**: Visual analysis of spending distribution across categories (Food, Rent, Utilities, Entertainment, etc.).
 
-## Getting Started
+- 📝 **Transaction Logger**
+  - Log income and expenses with amount, category, date, notes, and recurring monthly options.
+  - Interactive recent activity list with instant deletion and filtering.
 
-1. Clone this repository or download the files
-2. Open `index.html` in your web browser
-3. Start tracking your expenses!
+- 🎯 **Monthly Budget Limit & Savings Goals**
+  - **Monthly Spending Limit**: Set monthly budget caps with visual alert warnings when approaching spending limits.
+  - **Savings Target Tracker**: Set customized financial goals (e.g. *New Phone*, *Vacation*) with an interactive progress bar.
 
-No installation or setup required - the application runs entirely in the browser.
+- 💾 **Data Export & Privacy**
+  - **Backup Data**: Export financial history as JSON files to keep local backups.
+  - **LocalStorage Sync**: 100% private, client-side data persistence.
 
-## Usage
+- 🌓 **Dark Mode Toggle**
+  - Clean light/dark mode theme switcher for late-night budgeting.
 
-### Adding Transactions
-1. Select transaction type (Income/Expense)
-2. Enter the amount
-3. Select a category
-4. Add date and description (optional)
-5. Mark as recurring if needed
-6. Click "Add Transaction"
+---
 
-### Setting Budget
-1. Navigate to the Budget section
-2. Enter your monthly budget
-3. Click "Set Budget"
+## 🛠️ Tech Stack
 
-### Setting Savings Goals
-1. Navigate to the Savings section
-2. Enter your target amount
-3. Add a description for your goal
-4. Click "Set Goal"
+- **Frontend**: HTML5, Vanilla JavaScript (ES6+), CSS3 (Flexbox/Grid, CSS Variables)
+- **Data Visualization**: Chart.js v4
+- **Persistence**: Web Storage API (LocalStorage)
 
-## Features in Detail
+---
 
-### Transaction Management
-- Add income and expenses
-- Categorize transactions
-- Add dates and descriptions
-- Mark transactions as recurring
-- View transaction history
+## 🚀 Getting Started
 
-### Financial Overview
-- Total income and expenses
-- Current balance
-- Budget tracking
-- Savings progress
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Omkar4812x/Expense-Tracker-Website.git
+   cd Expense-Tracker-Website
+   ```
 
-### Data Visualization
-- Pie chart for expense categories
-- Bar chart for monthly income vs expenses
-- Interactive and responsive charts
+2. **Launch Application**:
+   Simply open `index.html` in any modern web browser or serve via Live Server.
 
-### Budget Management
-- Set monthly budget limits
-- Receive alerts when nearing budget limit
-- Track budget progress
+---
 
-### Savings Goals
-- Set savings targets
-- Track progress with visual indicators
-- Add descriptions to savings goals
+## 📄 License
 
-### Additional Features
-- Dark/Light mode toggle
-- Responsive design
-- Data persistence using localStorage
-- Currency conversion support
-- Financial tips
-
-## Browser Support
-
-The application is compatible with all modern browsers:
-- Chrome
-- Firefox
-- Safari
-- Edge
-
-## Contributing
-
-Feel free to fork this project and add your own features or improvements!
-
-## License
-
-This project is open source and available under the MIT License.
+Distributed under the MIT License.
